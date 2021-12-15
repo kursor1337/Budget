@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Budget</string>
+    <string name="jan_name">Jan</string>
+    <string name="feb_name">Feb</string>
+    <string name="mar_name">Mar</string>
+    <string name="apr_name">Apr</string>
+    <string name="may_name">May</string>
+    <string name="jun_name">Jun</string>
+    <string name="jul_name">Jul</string>
+    <string name="aug_name">Aug</string>
+    <string name="sep_name">Sep</string>
+    <string name="oct_name">Oct</string>
+    <string name="nov_name">Nov</string>
+    <string name="dec_name">Dec</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_income">Add Income</string>
+    <string name="add_outcome">Add Outcome</string>
+    <string name="budget">Budget</string>
+    <string name="planned">Planned</string>
+    <string name="graph">Graph</string>
+    <string name="balance">Balance: %d</string>
+    <string name="description">Description</string>
+    <string name="value">Value</string>
+    <string name="ready">Ready</string>
+    <string name="plan_expense">Plan expense</string>
+    <string name="add_month">Add month</string>
+
+</resources>

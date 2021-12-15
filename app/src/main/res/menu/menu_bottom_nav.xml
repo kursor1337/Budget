@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/monthsFragment"
+        android:title="@string/budget"
+        android:icon="@drawable/ic_months_budget"
+        />
+    <item
+        android:id="@+id/plannedExpFragment"
+        android:title="@string/planned"
+        android:icon="@drawable/ic_planned_exp"
+        />
+    <item
+        android:id="@+id/graphFragment"
+        android:title="@string/graph"
+        android:icon="@drawable/ic_graph"
+        />
+
+</menu>

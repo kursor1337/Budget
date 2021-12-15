@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Доходы и расходы</string>
+    <string name="jan_name">Янв</string>
+    <string name="feb_name">Фев</string>
+    <string name="mar_name">Мар</string>
+    <string name="apr_name">Апр</string>
+    <string name="may_name">Май</string>
+    <string name="jun_name">Июн</string>
+    <string name="jul_name">Июл</string>
+    <string name="aug_name">Авг</string>
+    <string name="sep_name">Сен</string>
+    <string name="oct_name">Окт</string>
+    <string name="nov_name">Ноя</string>
+    <string name="dec_name">Дек</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="add_income">Добавить доход</string>
+    <string name="add_outcome">Добавить расход</string>
+    <string name="budget">Бюджет</string>
+    <string name="planned">Запланировано</string>
+    <string name="graph">График</string>
+    <string name="balance">Баланс: %d</string>
+    <string name="description">Описание</string>
+    <string name="value">Значение</string>
+    <string name="ready">Готово</string>
+    <string name="plan_expense">Запланировать трату</string>
+</resources>

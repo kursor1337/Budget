@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/monthsFragment">
+
+    <fragment
+        android:id="@+id/plannedExpFragment"
+        android:name="com.kypcop.budget.fragments.PlannedExpFragment"
+        android:label="PlannedExpFragment"
+        tools:layout="@layout/fragment_planned_exp">
+        <action
+            android:id="@+id/action_plannedExpFragment_to_eventCreationDialogFragment"
+            app:destination="@id/eventCreationDialogFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/monthsFragment"
+        android:name="com.kypcop.budget.fragments.MonthsFragment"
+        android:label="MonthsFragment"
+        tools:layout="@layout/fragment_months">
+        <action
+            android:id="@+id/action_monthsFragment_to_budgetFragment"
+            app:destination="@id/budgetFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/graphFragment"
+        android:name="com.kypcop.budget.fragments.GraphFragment"
+        android:label="PredictionFragment"
+        tools:layout="@layout/fragment_graph"/>
+
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.kypcop.budget.fragments.BudgetFragment"
+        android:label="fragment_budget"
+        tools:layout="@layout/fragment_budget" >
+        <action
+            android:id="@+id/action_budgetFragment_to_eventCreationDialogFragment"
+            app:destination="@id/eventCreationDialogFragment" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/eventCreationDialogFragment"
+        android:name="com.kypcop.budget.fragments.EventCreationDialogFragment"
+        android:label="EventCreationDialogFragment"
+        tools:layout="@layout/fragment_event_creation">
+        <argument
+            android:name="eventType"
+            app:argType="com.kypcop.budget.Event$Type"
+            android:defaultValue="PLANNED" />
+    </dialog>
+
+
+</navigation>
